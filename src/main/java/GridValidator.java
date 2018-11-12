@@ -1,6 +1,6 @@
+import java.util.*;
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
 
 public class GridValidator {
     public static boolean isValidSize(int size) {
@@ -8,7 +8,7 @@ public class GridValidator {
     }
 
     public static boolean hasValidSymbols(int size, ArrayList<Character> symbols) {
-        if (symbols.size() != size) {
+        if (symbols == null || symbols.size() != size) {
             return false;
         }
         // check for duplicates
@@ -17,14 +17,14 @@ public class GridValidator {
     }
 
     public static boolean isValidSymbol(Character symbol, ArrayList<Character> symbols) {
-        if (!symbols.contains(symbol) && !symbol.equals('-')) {
+        if (symbol == null || symbols == null || (!symbols.contains(symbol) && !symbol.equals('-'))) {
             return false;
         }
         return true;
     }
 
     public static boolean isSquare(int size, ArrayList<ArrayList<Character>> grid) {
-        if (grid.size() != size) {
+        if (grid == null || grid.size() != size) {
             return false;
         }
         for (ArrayList<Character> row : grid) {
