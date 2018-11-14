@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public abstract class SolutionStep {
-    //TODO: TEST
     protected long timeMilliseconds = 0;
     protected int uses = 0;
     protected ArrayList<ArrayList<Character>> grid;

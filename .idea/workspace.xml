@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079848ec-5d4a-4b0f-9993-ac68c11286e5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/StrategyList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/StrategyListTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/StrategyList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/StrategyListTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FileManager.class" afterPath="$PROJECT_DIR$/target/classes/FileManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GridValidator.class" afterPath="$PROJECT_DIR$/target/classes/GridValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Strategy.class" afterPath="$PROJECT_DIR$/target/classes/Strategy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SudokuSolver.class" afterPath="$PROJECT_DIR$/target/classes/SudokuSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Time.class" afterPath="$PROJECT_DIR$/target/classes/Time.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/FileManagerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/FileManagerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/GridValidatorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/GridValidatorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/StrategyTest.class" afterPath="$PROJECT_DIR$/target/test-classes/StrategyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TimeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TimeTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs5700hw4.iml" afterPath="$PROJECT_DIR$/cs5700hw4.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/commandlineout.txt" afterPath="$PROJECT_DIR$/output_files/commandlineout.txt" />
@@ -22,14 +9,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/testout.txt" afterPath="$PROJECT_DIR$/output_files/testout.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/validout.txt" afterPath="$PROJECT_DIR$/output_files/validout.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FileManager.java" afterPath="$PROJECT_DIR$/src/main/java/FileManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GridValidator.java" afterPath="$PROJECT_DIR$/src/main/java/GridValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Strategy.java" afterPath="$PROJECT_DIR$/src/main/java/Strategy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" afterPath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Time.java" afterPath="$PROJECT_DIR$/src/main/java/Time.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FileManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/FileManagerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GridValidatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/GridValidatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StrategyTest.java" afterPath="$PROJECT_DIR$/src/test/java/StrategyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SolutionStep.java" afterPath="$PROJECT_DIR$/src/main/java/SolutionStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" afterPath="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,39 +39,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OneSpotLeftSolutionStep.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OneSpotLeftSolutionStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SolutionStep.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -158,12 +114,13 @@
         <option value="$PROJECT_DIR$/src/test/java/TimeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StrategyStepListTest.java" />
         <option value="$PROJECT_DIR$/output_files/commandlineout.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SolutionStep.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SolutionStepTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SolutionStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
       </list>
     </option>
   </component>
@@ -278,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Run all tests">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -408,23 +365,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540330260985</updated>
-      <workItem from="1540330264265" duration="80906000" />
+      <workItem from="1540330264265" duration="82283000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_all_tests - 2018.11.13 at 20h 52m 38s.xml">
-      <configuration name="Run all tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.13 at 20h 52m 57s.xml">
-      <configuration name="Run all tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.13 at 20h 53m 25s.xml">
-      <configuration name="Run all tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.13 at 21h 02m 24s.xml">
-      <configuration name="Run all tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Run_all_tests - 2018.11.13 at 21h 02m 52s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
@@ -443,9 +388,21 @@
     <history-entry file="Run_all_tests - 2018.11.13 at 21h 20m 05s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Run_all_tests - 2018.11.14 at 09h 16m 13s.xml">
+      <configuration name="Run all tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests - 2018.11.14 at 09h 16m 52s.xml">
+      <configuration name="Run all tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests - 2018.11.14 at 09h 18m 37s.xml">
+      <configuration name="Run all tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Run_all_tests - 2018.11.14 at 09h 21m 37s.xml">
+      <configuration name="Run all tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80906000" />
+    <option name="totallyTimeSpent" value="82283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="390" y="23" width="1290" height="936" extended-state="0" />
@@ -728,29 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_files/commandlineout.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FileManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1135">
           <caret line="234" column="31" lean-forward="true" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,10 +704,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/output_files/commandlineout.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SolutionStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -785,21 +732,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SolutionStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SudokuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

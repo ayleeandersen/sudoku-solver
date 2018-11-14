@@ -39,6 +39,22 @@ public class OneSpotLeftSolutionStepTest {
                 "3 4 1 2 \n" +
                 "1 2 3 4 \n" +
                 "4 3 2 1 "));
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','2','-','4')));
+        grid.add(new ArrayList<>(Arrays.asList('-','3','2','-')));
+        gridInput = new StringBuilder("4\n" +
+                "1 2 3 4\n" +
+                "- - - -\n" +
+                "- - - -\n" +
+                "- 2 - 4\n" +
+                "- 3 2 -");
+        symbols = new ArrayList<>(List.of('1','2','3','4'));
+        sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
+        oneSpotLeftSolutionStep.solveStep(sudokuGrid);
+        assertEquals(0, oneSpotLeftSolutionStep.getStrategy().getUses());
     }
 
     @Test
