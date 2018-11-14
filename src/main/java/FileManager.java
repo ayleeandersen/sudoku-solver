@@ -52,6 +52,7 @@ public class FileManager {
             grid.add(letters);
         }
         if (!GridValidator.isSquare(size, grid)) { writeError("Puzzle is not square"); }
+        if (!GridValidator.doesNotContainDuplicates(grid)) { writeError("Puzzle contains duplicate symbols in a row, column, or block"); }
 
         SudokuSolver sudokuSolver = new SudokuSolver(new SudokuGrid(grid, gridOut, symbols), outputFile);
         sudokuSolver.solve();

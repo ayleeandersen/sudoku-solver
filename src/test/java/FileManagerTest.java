@@ -219,6 +219,30 @@ public class FileManagerTest {
                 "- - - 2\n" +
                 "3 - 2 -\n" +
                 "Invalid Puzzle -- Puzzle is not square\n", result);
+
+        // Duplicates in a block
+        inputStream = new ByteArrayInputStream(("4\n" +
+                "1 2 3 4\n" +
+                "4 2 - 1\n" +
+                "- - 1 2\n" +
+                "3 - 2 -\n" +
+                "- 4 - 3").getBytes());
+        outputStream = new FileOutputStream(new File("output_files/errorout.txt"));
+        fileManager = new FileManager(inputStream, outputStream);
+        try {
+            fileManager.loadPuzzle();
+            fail("Should have thrown exception");
+        } catch (Exception e) {
+            assertEquals("Invalid Puzzle -- see output for details", e.getMessage());
+        }
+        result = new String(Files.readAllBytes(Paths.get("output_files/errorout.txt")));
+        assertEquals("4\n" +
+                "1 2 3 4\n" +
+                "4 2 - 1\n" +
+                "- - 1 2\n" +
+                "3 - 2 -\n" +
+                "- 4 - 3\n" +
+                "Invalid Puzzle -- Puzzle contains duplicate symbols in a row, column, or block\n", result);
     }
 
     @Test

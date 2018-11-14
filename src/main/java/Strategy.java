@@ -1,7 +1,7 @@
 public class Strategy {
     private String name = "";
     private int uses = 0;
-    private int time = 0; // in milliseconds
+    private long timeMilliseconds = 0; // in milliseconds
 
     public Strategy(String name) {
         this.name = name;
@@ -20,10 +20,10 @@ public class Strategy {
     }
 
     public String getTime() {
-        return new Time(time).getTime();
+        return new Time(timeMilliseconds).getTime();
     }
 
-    public void addTime(int milliseconds) {
-        time += milliseconds;
+    public void addTime(long milliseconds) {
+        timeMilliseconds += milliseconds;
     }
 }

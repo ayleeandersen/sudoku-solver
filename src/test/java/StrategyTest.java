@@ -36,6 +36,6 @@ public class StrategyTest {
         strategy.addTime(2012232430);
         assertEquals("06:57:12.430", strategy.getTime());
         strategy.addTime(2012232430);
-        assertEquals("20:51:37.564", strategy.getTime());
+        assertEquals("13:54:24.860", strategy.getTime());
     }
 }

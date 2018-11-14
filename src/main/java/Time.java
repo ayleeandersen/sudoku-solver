@@ -3,9 +3,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class Time {
-    private int timeMilliseconds = 0;
+    private long timeMilliseconds = 0;
 
-    public Time(int timeMilliseconds) {
+    public Time(long timeMilliseconds) {
         this.timeMilliseconds = timeMilliseconds;
     }
 

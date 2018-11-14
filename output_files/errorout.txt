@@ -1,6 +1,18 @@
 4
 1 2 3 4
-4 2 - 1
-- - - 2
-3 - 2 -
-Invalid Puzzle -- Puzzle is not square
+- 1 4 3
+- - 1 2
+- 2 - 4
+- 3 2 -
+Solution:
+2 1 4 3 
+3 4 1 2 
+1 2 3 4 
+4 3 2 1 
+
+
+Total time: 00:00:00.000
+
+Strategy                  Uses       Time           
+OneSpotLeft               82988      00:00:00.002   
+SinglePosition            0          00:00:00.000   

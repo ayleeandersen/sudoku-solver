@@ -77,4 +77,42 @@ public class GridValidatorTest {
         grid.add(new ArrayList<>(Arrays.asList('-','4','-','3')));
         assertFalse(GridValidator.isSquare(size, grid));
     }
+
+    @Test
+    public void testDoesNotContainDuplicates() {
+        ArrayList<ArrayList<Character>> grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('4','2','-','1')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','2')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','2','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','4','-','3')));
+        assertTrue(GridValidator.doesNotContainDuplicates(grid));
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('4','4','-','1')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','2')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','2','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','4','-','3')));
+        assertFalse(GridValidator.doesNotContainDuplicates(grid));
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('4','2','-','1')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','2')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','2','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','4','-','1')));
+        assertFalse(GridValidator.doesNotContainDuplicates(grid));
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('4','2','-','1')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','1','2')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','2','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','4','-','3')));
+        assertFalse(GridValidator.doesNotContainDuplicates(grid));
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','3','-')));
+        grid.add(new ArrayList<>(Arrays.asList('-','-','-','3')));
+        assertFalse(GridValidator.doesNotContainDuplicates(grid));
+    }
 }
