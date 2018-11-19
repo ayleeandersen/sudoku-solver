@@ -6,6 +6,7 @@ public class OneSpotLeftSolutionStep extends SolutionStep {
     private boolean madeMove = true;
 
     public void solveStep(SudokuGrid sudokuGrid) {
+        this.madeMove = true;
         this.grid = sudokuGrid.getGrid();
         // loop through till no moves are made
         while (madeMove) {
@@ -45,7 +46,6 @@ public class OneSpotLeftSolutionStep extends SolutionStep {
             double sqrt = Math.sqrt(grid.size());
             for (int blockRow = 0; blockRow < sqrt; blockRow++) {
                 for (int blockCol = 0; blockCol < sqrt; blockCol++) {
-//                ArrayList<Character> block = new ArrayList<>();
                     int i = -100;
                     int j = -100;
                     boolean oneDash = false;

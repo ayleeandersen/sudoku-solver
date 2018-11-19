@@ -1,19 +1,7 @@
 4
 1 2 3 4
-- - 2 -
-1 2 4 3
-- 3 1 2
-2 1 3 4
-
-Solution:
-3 4 2 1 
-1 2 4 3 
-4 3 1 2 
-2 1 3 4 
-
-
-Total time: 00:00:00.005
-
-Strategy                  Uses       Time           
-SinglePosition            0          00:00:00.000   
-OneSpotLeft               4          00:00:00.000   
+4 2 - 1
+- - - 2
+3 - 2 -
+- 4 - 3
+Invalid Puzzle -- could not solve puzzle with current algorithm set

@@ -26,4 +26,9 @@ public class Strategy {
     public void addTime(long milliseconds) {
         timeMilliseconds += milliseconds;
     }
+
+    public void reset() {
+        uses = 0;
+        timeMilliseconds = 0;
+    }
 }

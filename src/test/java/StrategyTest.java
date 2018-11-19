@@ -38,4 +38,19 @@ public class StrategyTest {
         strategy.addTime(2012232430);
         assertEquals("13:54:24.860", strategy.getTime());
     }
+
+    @Test
+    public void testReset() {
+        Strategy strategy = new Strategy("test1");
+        assertEquals(0, strategy.getUses());
+        strategy.increaseUses(10);
+        assertEquals(10, strategy.getUses());
+        assertEquals("00:00:00.000", strategy.getTime());
+        strategy.addTime(2012232430);
+        assertEquals("06:57:12.430", strategy.getTime());
+
+        strategy.reset();
+        assertEquals(0, strategy.getUses());
+        assertEquals("00:00:00.000", strategy.getTime());
+    }
 }

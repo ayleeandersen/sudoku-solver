@@ -45,9 +45,9 @@ public class FileManagerTest {
         InputStream inputStream = new ByteArrayInputStream(("4\n" +
                 "1 2 3 4\n" +
                 "4 2 - 1\n" +
-                "- - - 2\n" +
+                "- 3 - 2\n" +
                 "3 - 2 -\n" +
-                "- 4 - 3").getBytes());
+                "2 4 - 3").getBytes());
         OutputStream outputStream = new FileOutputStream(new File("output_files/testout.txt"));
         FileManager fileManager = new FileManager(inputStream, outputStream);
         fileManager.loadPuzzle();

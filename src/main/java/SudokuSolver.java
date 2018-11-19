@@ -2,29 +2,30 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 
 public class SudokuSolver {
-    // TODO: TEST and update UML
     private long totalTime = 0; // in milliseconds
     private SudokuGrid grid;
     private OutputStream output;
 
-    public SudokuSolver(SudokuGrid sudokuGrid, OutputStream output) {
+    public SudokuSolver(SudokuGrid sudokuGrid, OutputStream output) throws Exception {
+        if (sudokuGrid == null || output == null) {
+            throw new Exception("Sudoku solver cannot take null arguments");
+        }
         this.grid = sudokuGrid;
         this.output = output;
     }
 
     public void solve() throws Exception {
         totalTime = System.currentTimeMillis();
-        //TODO: remove and replace with a check for if none of them work we know it doesn't work
-        long start = System.currentTimeMillis();
         while (!checkSolved()) {
-            if (System.currentTimeMillis() - start > 30) {
-                break;
-            }
+            String tempGrid = grid.getGrid().toString();
             for (SolutionStep step : StrategyStepList.strategies) {
                 step.runStep(grid);
             }
-//            run "only one place" SolutionStep
-//            run "guess" SolutionStep recursively and restart loop
+            if (tempGrid.equals(grid.getGrid().toString())) {
+                output.write((grid.getGridInput()).getBytes());
+                output.write(("\nInvalid Puzzle -- could not solve puzzle with current algorithm set\n").getBytes());
+                throw new Exception("Invalid Puzzle -- see output for details");
+            }
         }
         totalTime = (System.currentTimeMillis() - totalTime);
         print();

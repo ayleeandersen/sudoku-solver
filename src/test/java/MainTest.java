@@ -7,16 +7,22 @@ public class MainTest {
     public void testMain() throws Exception {
         // For the sake of code coverage
         Main main = new Main();
-        String[] args1 = {"input_files/valid4x4.txt", "output_files/validout.txt"};
+        String[] args1 = {"input_files/onespotleft4x4.txt", "output_files/validout.txt"};
+        for (SolutionStep step : StrategyStepList.strategies) {
+            step.getStrategy().reset();
+        }
         main.main(args1);
     }
 
     @Test
     public void testParseTwoCommands() throws Exception {
-        String[] args1 = {"input_files/valid4x4.txt", "output_files/validout.txt"};
+        for (SolutionStep step : StrategyStepList.strategies) {
+            step.getStrategy().reset();
+        }
+        String[] args1 = {"input_files/onespotleft4x4.txt", "output_files/validout.txt"};
         Main.parseCommands(args1);
 
-        String[] args2 = {"input_files/valid4x4.txt", null};
+        String[] args2 = {"input_files/onespotleft4x4.txt", null};
         try {
             Main.parseCommands(args2);
             fail("Should have thrown exception");
@@ -59,7 +65,10 @@ public class MainTest {
 
     @Test
     public void testParseOneCommand() throws Exception {
-        String[] args1 = {"input_files/valid4x4.txt"};
+        for (SolutionStep step : StrategyStepList.strategies) {
+            step.getStrategy().reset();
+        }
+        String[] args1 = {"input_files/onespotleft4x4.txt"};
         System.out.println("TestParseOneCommand Output 1: ");
         Main.parseCommands(args1);
 

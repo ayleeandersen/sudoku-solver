@@ -7,10 +7,16 @@ public abstract class SolutionStep {
 
     // Template method
     public final void runStep(SudokuGrid grid) {
+        resetVariables();
         startTimer();
         solveStep(grid);
         endTimer();
         updateStrategyStats();
+    }
+
+    private void resetVariables() {
+        timeMilliseconds = 0;
+        uses = 0;
     }
 
     private void startTimer() {
@@ -23,7 +29,7 @@ public abstract class SolutionStep {
         timeMilliseconds = System.currentTimeMillis() - timeMilliseconds;
     }
 
-    abstract void updateStrategyStats(); //create new instance in child classes
+    abstract void updateStrategyStats();
 
     abstract String getClassName();
 
