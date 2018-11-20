@@ -55,6 +55,33 @@ public class OneSpotLeftSolutionStepTest {
         sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
         oneSpotLeftSolutionStep.solveStep(sudokuGrid);
         assertEquals(0, oneSpotLeftSolutionStep.getStrategy().getUses());
+
+        grid = new ArrayList<>();
+        grid.add(new ArrayList<>(Arrays.asList('2','1','4','3')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','-','2')));
+        grid.add(new ArrayList<>(Arrays.asList('1','-','-','4')));
+        grid.add(new ArrayList<>(Arrays.asList('4','3','2','1')));
+        gridInput = new StringBuilder("4\n" +
+                "1 2 3 4\n" +
+                "2 1 4 3\n" +
+                "3 - - 2\n" +
+                "1 - - 4\n" +
+                "4 3 2 1");
+        symbols = new ArrayList<>(List.of('1','2','3','4'));
+        outputStream = new FileOutputStream(new File("output_files/errorout.txt"));
+        sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
+        sudokuSolver = new SudokuSolver(sudokuGrid, outputStream);
+
+        oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
+        oneSpotLeftSolutionStep.solveStep(sudokuGrid);
+
+        sudokuSolver.print();
+        result = new String(Files.readAllBytes(Paths.get("output_files/errorout.txt")));
+        assertTrue(result.contains("Solution:\n" +
+                "2 1 4 3 \n" +
+                "3 4 1 2 \n" +
+                "1 2 3 4 \n" +
+                "4 3 2 1 "));
     }
 
     @Test

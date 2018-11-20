@@ -3,7 +3,6 @@ import com.sun.tools.javac.util.List;
 import java.util.ArrayList;
 
 public class StrategyStepList {
-    // TODO: finish writing strategies
     // everyone should have the same reference to the strategies list. This makes sure the SolutionStep's Strategy is shared across the class.
     public static ArrayList<SolutionStep> strategies = new ArrayList<>(List.of(new SinglePositionSolutionStep(), new OneSpotLeftSolutionStep()));
 

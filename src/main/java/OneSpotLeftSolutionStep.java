@@ -54,7 +54,7 @@ public class OneSpotLeftSolutionStep extends SolutionStep {
                         for (double col = sqrt * blockCol; col < sqrt * blockCol + sqrt; col++) {
                             block.add(grid.get((int) row).get((int) col));
                             if (grid.get((int) row).get((int) col) == '-') {
-                                if (row != -100 && col != 100) {
+                                if (i != -100 && j != -100) {
                                     oneDash = false;
                                 } else {
                                     i = (int) row;
