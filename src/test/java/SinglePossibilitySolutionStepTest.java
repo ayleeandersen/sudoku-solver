@@ -66,6 +66,11 @@ public class SinglePossibilitySolutionStepTest {
     }
 
     @Test
+    public void findPossibilities() throws Exception {
+        // Find possibilities ran correctly if testUpdateStrategyStats had the correct number of usages
+    }
+
+    @Test
     public void testUpdateStrategyStats() {
         SinglePossibilitySolutionStep singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
         ArrayList<ArrayList<Character>> grid = new ArrayList<>();

@@ -22,8 +22,8 @@ Solution:
 8 1 3 6 4 9 2 5 7 
 
 
-Total time: 00:00:00.010
+Total time: 00:00:00.007
 
 Strategy                  Uses       Time           
 OneSpotLeft               0          00:00:00.000   
-SinglePosition            43         00:00:00.002   
+SinglePossibility         43         00:00:00.003   

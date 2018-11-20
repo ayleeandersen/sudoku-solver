@@ -43,7 +43,6 @@ public class SinglePossibilitySolutionStep extends SolutionStep {
                 // Find the possibilities for each missing index in the column
                 for (int i = 0; i < grid.size(); i++) {
                     if (column.get(i).equals('-')) {
-                        // findPossibilities(row, col, needs)
                          findPossibilities(i, col, needs);
                     }
                 }
@@ -77,7 +76,7 @@ public class SinglePossibilitySolutionStep extends SolutionStep {
         }
     }
 
-    public ArrayList<Character> findPossibilities(int row, int col, ArrayList<Character> needs) {
+    private void findPossibilities(int row, int col, ArrayList<Character> needs) {
         ArrayList<Character> possibilities = new ArrayList<>();
         ArrayList<Character> rowList = new ArrayList<>(grid.get(row));
         ArrayList<Character> colList = new ArrayList<>();
@@ -105,7 +104,6 @@ public class SinglePossibilitySolutionStep extends SolutionStep {
             uses++;
             madeMove = true;
         }
-        return possibilities;
     }
 
     public void updateStrategyStats() {
