@@ -15,4 +15,4 @@ Total time: 00:00:00.000
 
 Strategy                  Uses       Time           
 OneSpotLeft               0          00:00:00.000   
-SinglePosition            0          00:00:00.000   
+SinglePossibility         0          00:00:00.000   

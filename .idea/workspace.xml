@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079848ec-5d4a-4b0f-9993-ac68c11286e5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/SinglePositionSolutionStep.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/SinglePositionSolutionStep.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp" afterPath="$PROJECT_DIR$/cs5700hw4Designs.vpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/OneSpotLeftSolutionStep.class" afterPath="$PROJECT_DIR$/target/classes/OneSpotLeftSolutionStep.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/StrategyStepList.class" afterPath="$PROJECT_DIR$/target/classes/StrategyStepList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SudokuSolver.class" afterPath="$PROJECT_DIR$/target/classes/SudokuSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/StrategyStepListTest.class" afterPath="$PROJECT_DIR$/target/test-classes/StrategyStepListTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SudokuSolverTest.class" afterPath="$PROJECT_DIR$/target/test-classes/SudokuSolverTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4-SequenceSolverToSolutionStep.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_018d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_019f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_020d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_021d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_022d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cs5700hw4Designs.vpp.bak_023d" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4b.pdf" afterPath="$PROJECT_DIR$/HW4b.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SinglePossibilitySolutionStep.class" afterPath="$PROJECT_DIR$/target/classes/SinglePossibilitySolutionStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SolutionStep.class" afterPath="$PROJECT_DIR$/target/classes/SolutionStep.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/OneSpotLeftSolutionStepTest.class" afterPath="$PROJECT_DIR$/target/test-classes/OneSpotLeftSolutionStepTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/commandlineout.txt" afterPath="$PROJECT_DIR$/output_files/commandlineout.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/errorout.txt" afterPath="$PROJECT_DIR$/output_files/errorout.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/solverout.txt" afterPath="$PROJECT_DIR$/output_files/solverout.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/testout.txt" afterPath="$PROJECT_DIR$/output_files/testout.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java" afterPath="$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/StrategyStepList.java" afterPath="$PROJECT_DIR$/src/main/java/StrategyStepList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" afterPath="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_files/validout.txt" afterPath="$PROJECT_DIR$/output_files/validout.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java" afterPath="$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" afterPath="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StrategyStepListTest.java" afterPath="$PROJECT_DIR$/src/test/java/StrategyStepListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SudokuSolverTest.java" afterPath="$PROJECT_DIR$/src/test/java/SudokuSolverTest.java" />
     </list>
@@ -36,11 +40,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SinglePossibilitySolutionStep.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java">
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolutionStep.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SolutionStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,19 +128,20 @@
         <option value="$PROJECT_DIR$/src/test/java/StrategyTest.java" />
         <option value="$PROJECT_DIR$/output_files/solverout.txt" />
         <option value="$PROJECT_DIR$/input_files/valid9x9.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/SinglePositionSolutionStep.java" />
         <option value="$PROJECT_DIR$/input_files/2valid9x9.txt" />
         <option value="$PROJECT_DIR$/src/main/java/StrategyStepList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SudokuSolverTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StrategyStepListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/input_files/2valid4x4.txt" />
         <option value="$PROJECT_DIR$/output_files/commandlineout.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/SolutionStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SudokuSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StrategyStepListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SinglePossibilitySolutionStepTest.java" />
       </list>
     </option>
   </component>
@@ -133,7 +151,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="390" />
     <option name="y" value="23" />
     <option name="width" value="1290" />
@@ -238,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Run all tests">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -368,44 +386,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540330260985</updated>
-      <workItem from="1540330264265" duration="104299000" />
+      <workItem from="1540330264265" duration="105754000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 23m 48s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 25m 31s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 24m 15s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 28m 16s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 32m 34s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 28m 20s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 34m 12s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 28m 30s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 35m 07s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 31m 42s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 36m 27s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 32m 10s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 36m 31s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 32m 14s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 38m 04s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 33m 12s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 38m 08s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 33m 25s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Run_all_tests - 2018.11.19 at 21h 38m 26s.xml">
+    <history-entry file="Run_all_tests - 2018.11.19 at 22h 33m 34s.xml">
       <configuration name="Run all tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104299000" />
+    <option name="totallyTimeSpent" value="105754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +435,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="390" y="23" width="1290" height="936" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="938" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -428,20 +446,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32699168" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772437" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33293697" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321471" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15945514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12148962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -458,7 +476,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="73" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -613,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SudokuGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input_files/invalid16x16.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -677,32 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SudokuSolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3885">
-          <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StrategyStepList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StrategyStepListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -726,24 +710,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,29 +747,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StrategyStepList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="58">
+          <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SolutionStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StrategyStepListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="363">
+          <caret line="44" column="89" lean-forward="false" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SudokuSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
           <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OneSpotLeftSolutionStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OneSpotLeftSolutionStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SinglePossibilitySolutionStepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SinglePossibilitySolutionStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SudokuGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SolutionStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

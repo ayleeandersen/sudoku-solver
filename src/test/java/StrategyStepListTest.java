@@ -42,7 +42,7 @@ public class StrategyStepListTest {
 
     @Test
     public void testGetStrategy() {
-        assertEquals("SinglePosition", StrategyStepList.getStrategy("SinglePosition").getName());
+        assertEquals("SinglePossibility", StrategyStepList.getStrategy("SinglePossibility").getName());
         assertEquals("OneSpotLeft", StrategyStepList.getStrategy("OneSpotLeft").getName());
 
         assertEquals(null, StrategyStepList.getStrategy("TEST"));

@@ -50,7 +50,7 @@ public class SudokuSolverTest {
                 "Strategy                  Uses       Time           \n" +
                 "OneSpotLeft               0          "));
         assertTrue(result.contains("  \n" +
-                "SinglePosition            0          "));
+                "SinglePossibility         0          "));
 
         try {
             SudokuSolver solver = new SudokuSolver(null, null);
@@ -100,7 +100,7 @@ public class SudokuSolverTest {
                 "Strategy                  Uses       Time           \n" +
                 "OneSpotLeft               6          "));
         assertTrue(result.contains("  \n" +
-                "SinglePosition            0          "));
+                "SinglePossibility         0          "));
 
 
         for (SolutionStep step : StrategyStepList.strategies) {
@@ -232,7 +232,7 @@ public class SudokuSolverTest {
                 "\n" +
                 "Strategy                  Uses       Time           \n" +
                 "OneSpotLeft               0          00:00:00.000   \n" +
-                "SinglePosition            0          00:00:00.000   \n", result);
+                "SinglePossibility         0          00:00:00.000   \n", result);
 
         outputStream = new FileOutputStream(new File("output_files/solverout.txt"));
         sudokuSolver = new SudokuSolver(new SudokuGrid(grid, input, symbols), outputStream);
@@ -256,6 +256,6 @@ public class SudokuSolverTest {
                 "Strategy                  Uses       Time           \n" +
                 "OneSpotLeft"));
         assertTrue(result.contains("  \n" +
-                "SinglePosition"));
+                "SinglePossibility"));
     }
 }

@@ -10,18 +10,18 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class OneSpotLeftSolutionStepTest {
+public class SinglePossibilitySolutionStepTest {
     @Test
     public void testSolveStep() throws Exception {
         ArrayList<ArrayList<Character>> grid = new ArrayList<>();
-        grid.add(new ArrayList<>(Arrays.asList('-','1','4','3')));
-        grid.add(new ArrayList<>(Arrays.asList('-','-','1','2')));
+        grid.add(new ArrayList<>(Arrays.asList('-','1','4','-')));
+        grid.add(new ArrayList<>(Arrays.asList('3','-','1','-')));
         grid.add(new ArrayList<>(Arrays.asList('-','2','-','4')));
         grid.add(new ArrayList<>(Arrays.asList('-','3','2','-')));
         StringBuilder gridInput = new StringBuilder("4\n" +
                 "1 2 3 4\n" +
-                "- 1 4 3\n" +
-                "- - 1 2\n" +
+                "- 1 4 -\n" +
+                "3 - 1 -\n" +
                 "- 2 - 4\n" +
                 "- 3 2 -");
         ArrayList<Character> symbols = new ArrayList<>(List.of('1','2','3','4'));
@@ -29,8 +29,8 @@ public class OneSpotLeftSolutionStepTest {
         SudokuGrid sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
         SudokuSolver sudokuSolver = new SudokuSolver(sudokuGrid, outputStream);
 
-        OneSpotLeftSolutionStep oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
-        oneSpotLeftSolutionStep.solveStep(sudokuGrid);
+        SinglePossibilitySolutionStep singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
+        singlePossibilitySolutionStep.solveStep(sudokuGrid);
 
         sudokuSolver.print();
         String result = new String(Files.readAllBytes(Paths.get("output_files/errorout.txt")));
@@ -53,27 +53,8 @@ public class OneSpotLeftSolutionStepTest {
                 "- 3 2 -");
         symbols = new ArrayList<>(List.of('1','2','3','4'));
         sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
-        oneSpotLeftSolutionStep.solveStep(sudokuGrid);
-        assertEquals(0, oneSpotLeftSolutionStep.getStrategy().getUses());
-
-        grid = new ArrayList<>();
-        grid.add(new ArrayList<>(Arrays.asList('2','1','4','3')));
-        grid.add(new ArrayList<>(Arrays.asList('3','-','-','2')));
-        grid.add(new ArrayList<>(Arrays.asList('1','-','-','4')));
-        grid.add(new ArrayList<>(Arrays.asList('4','3','2','1')));
-        gridInput = new StringBuilder("4\n" +
-                "1 2 3 4\n" +
-                "2 1 4 3\n" +
-                "3 - - 2\n" +
-                "1 - - 4\n" +
-                "4 3 2 1");
-        symbols = new ArrayList<>(List.of('1','2','3','4'));
-        outputStream = new FileOutputStream(new File("output_files/errorout.txt"));
-        sudokuGrid = new SudokuGrid(grid, gridInput, symbols);
-        sudokuSolver = new SudokuSolver(sudokuGrid, outputStream);
-
-        oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
-        oneSpotLeftSolutionStep.solveStep(sudokuGrid);
+        singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
+        singlePossibilitySolutionStep.solveStep(sudokuGrid);
 
         sudokuSolver.print();
         result = new String(Files.readAllBytes(Paths.get("output_files/errorout.txt")));
@@ -86,35 +67,35 @@ public class OneSpotLeftSolutionStepTest {
 
     @Test
     public void testUpdateStrategyStats() {
-        OneSpotLeftSolutionStep oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
+        SinglePossibilitySolutionStep singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
         ArrayList<ArrayList<Character>> grid = new ArrayList<>();
-        grid.add(new ArrayList<>(Arrays.asList('-','1','4','3')));
+        grid.add(new ArrayList<>(Arrays.asList('-','1','-','3')));
         grid.add(new ArrayList<>(Arrays.asList('-','-','1','2')));
         grid.add(new ArrayList<>(Arrays.asList('-','2','-','4')));
         grid.add(new ArrayList<>(Arrays.asList('-','3','2','-')));
         StringBuilder gridInput = new StringBuilder("4\n" +
                 "1 2 3 4\n" +
-                "- 1 4 3\n" +
+                "- 1 - 3\n" +
                 "- - 1 2\n" +
                 "- 2 - 4\n" +
                 "- 3 2 -");
         ArrayList<Character> symbols = new ArrayList<>(List.of('1','2','3','4'));
-        oneSpotLeftSolutionStep.runStep(new SudokuGrid(grid, gridInput, symbols));
-        assertEquals(7, oneSpotLeftSolutionStep.getStrategy().getUses());
+        singlePossibilitySolutionStep.runStep(new SudokuGrid(grid, gridInput, symbols));
+        assertEquals(8, singlePossibilitySolutionStep.getStrategy().getUses());
     }
 
     @Test
     public void testGetClassName() {
-        OneSpotLeftSolutionStep oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
-        assertEquals("OneSpotLeftSolutionStep", oneSpotLeftSolutionStep.getClassName());
+        SinglePossibilitySolutionStep singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
+        assertEquals("SinglePossibilitySolutionStep", singlePossibilitySolutionStep.getClassName());
     }
 
     @Test
     public void testGetStrategy() {
-        OneSpotLeftSolutionStep oneSpotLeftSolutionStep = new OneSpotLeftSolutionStep();
-        Strategy test = new Strategy("OneSpotLeft");
-        assertEquals(test.getName(), oneSpotLeftSolutionStep.getStrategy().getName());
-        assertEquals(test.getTime(), oneSpotLeftSolutionStep.getStrategy().getTime());
-        assertEquals(test.getUses(), oneSpotLeftSolutionStep.getStrategy().getUses());
+        SinglePossibilitySolutionStep singlePossibilitySolutionStep = new SinglePossibilitySolutionStep();
+        Strategy test = new Strategy("SinglePossibility");
+        assertEquals(test.getName(), singlePossibilitySolutionStep.getStrategy().getName());
+        assertEquals(test.getTime(), singlePossibilitySolutionStep.getStrategy().getTime());
+        assertEquals(test.getUses(), singlePossibilitySolutionStep.getStrategy().getUses());
     }
 }

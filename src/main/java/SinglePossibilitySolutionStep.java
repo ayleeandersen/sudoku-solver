@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
 public class SinglePossibilitySolutionStep extends SolutionStep {
-    //TODO: test
-    private Strategy strategy = new Strategy("SinglePosition");
+    private Strategy strategy = new Strategy("SinglePossibility");
     private boolean madeMove = true;
 
     public void solveStep(SudokuGrid sudokuGrid) {
