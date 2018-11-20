@@ -18,7 +18,7 @@ public class SudokuSolver {
         totalTime = System.currentTimeMillis();
         while (!checkSolved()) {
             String tempGrid = grid.getGrid().toString();
-            // TODO: maybe loop through the first two and then if the grid hasn't changed, try guess
+            // maybe loop through the first two and then if the grid hasn't changed, try guess
             for (SolutionStep step : StrategyStepList.strategies) {
                 step.runStep(grid);
             }

@@ -15,5 +15,5 @@ Solution:
 Total time: 00:00:00.000
 
 Strategy                  Uses       Time           
-SinglePosition            0          00:00:00.000   
 OneSpotLeft               6          00:00:00.000   
+SinglePosition            0          00:00:00.000   

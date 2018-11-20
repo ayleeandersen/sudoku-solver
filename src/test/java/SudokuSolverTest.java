@@ -48,9 +48,9 @@ public class SudokuSolverTest {
                 "Total time: "));
         assertTrue(result.contains("\n" +
                 "Strategy                  Uses       Time           \n" +
-                "SinglePosition            0          "));
-        assertTrue(result.contains("  \n" +
                 "OneSpotLeft               0          "));
+        assertTrue(result.contains("  \n" +
+                "SinglePosition            0          "));
 
         try {
             SudokuSolver solver = new SudokuSolver(null, null);
@@ -98,9 +98,9 @@ public class SudokuSolverTest {
                 "Total time: 00:"));
         assertTrue(result.contains("\n" +
                 "Strategy                  Uses       Time           \n" +
-                "SinglePosition            0          "));
-        assertTrue(result.contains("  \n" +
                 "OneSpotLeft               6          "));
+        assertTrue(result.contains("  \n" +
+                "SinglePosition            0          "));
 
 
         for (SolutionStep step : StrategyStepList.strategies) {
@@ -231,8 +231,8 @@ public class SudokuSolverTest {
                 "Total time: 00:00:00.000\n" +
                 "\n" +
                 "Strategy                  Uses       Time           \n" +
-                "SinglePosition            0          00:00:00.000   \n" +
-                "OneSpotLeft               0          00:00:00.000   \n", result);
+                "OneSpotLeft               0          00:00:00.000   \n" +
+                "SinglePosition            0          00:00:00.000   \n", result);
 
         outputStream = new FileOutputStream(new File("output_files/solverout.txt"));
         sudokuSolver = new SudokuSolver(new SudokuGrid(grid, input, symbols), outputStream);
@@ -254,8 +254,8 @@ public class SudokuSolverTest {
                 "Total time: "));
         assertTrue(result.contains("\n" +
                 "Strategy                  Uses       Time           \n" +
-                "SinglePosition            0          "));
+                "OneSpotLeft"));
         assertTrue(result.contains("  \n" +
-                "OneSpotLeft               6          "));
+                "SinglePosition"));
     }
 }

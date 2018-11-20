@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class StrategyStepList {
     // everyone should have the same reference to the strategies list. This makes sure the SolutionStep's Strategy is shared across the class.
-    public static ArrayList<SolutionStep> strategies = new ArrayList<>(List.of(new SinglePositionSolutionStep(), new OneSpotLeftSolutionStep()));
+    public static ArrayList<SolutionStep> strategies = new ArrayList<>(List.of(new OneSpotLeftSolutionStep(), new SinglePossibilitySolutionStep()));
 
     public static void addNewSolutionStep(SolutionStep solutionStep) {
         for (SolutionStep step : strategies) {

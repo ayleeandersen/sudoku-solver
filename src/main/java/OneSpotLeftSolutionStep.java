@@ -3,11 +3,10 @@ import java.util.Collections;
 
 public class OneSpotLeftSolutionStep extends SolutionStep {
     private Strategy strategy = new Strategy("OneSpotLeft");
-    private boolean madeMove = true;
 
     public void solveStep(SudokuGrid sudokuGrid) {
-        this.madeMove = true;
         this.grid = sudokuGrid.getGrid();
+        boolean madeMove = true;
         // loop through till no moves are made
         while (madeMove) {
             madeMove = false;

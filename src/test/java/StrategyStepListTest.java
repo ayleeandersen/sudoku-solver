@@ -9,13 +9,13 @@ public class StrategyStepListTest {
     public void testAddStrategy() {
         StrategyStepList strategyStepList = new StrategyStepList();
         int size = strategyStepList.strategies.size();
-        SolutionStep strategy = new SinglePositionSolutionStep();
+        SolutionStep strategy = new SinglePossibilitySolutionStep();
 
         // make sure it doesn't add duplicates
         strategyStepList.addNewSolutionStep(strategy);
         assertEquals(size, strategyStepList.strategies.size());
 
-        strategyStepList.removeSolutionStep("SinglePositionSolutionStep");
+        strategyStepList.removeSolutionStep("SinglePossibilitySolutionStep");
         assertEquals(size-1, strategyStepList.strategies.size());
 
         strategyStepList.addNewSolutionStep(strategy);
@@ -30,14 +30,14 @@ public class StrategyStepListTest {
 
         assertEquals(size, strategyList.size());
 
-        StrategyStepList.removeSolutionStep("SinglePositionSolutionStep");
+        StrategyStepList.removeSolutionStep("OneSpotLeftSolutionStep");
 
         strategyList.remove(0);
 
         assertEquals(size-1, StrategyStepList.strategies.size());
         assertEquals(strategyList, StrategyStepList.strategies);
 
-        StrategyStepList.addNewSolutionStep(new SinglePositionSolutionStep());
+        StrategyStepList.addNewSolutionStep(new OneSpotLeftSolutionStep());
     }
 
     @Test
